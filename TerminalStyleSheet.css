@@ -1,0 +1,294 @@
+@font-face {
+    font-family: DOSVGA437;
+    src: url(./fonts/DOSVGA437.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: VT323;
+    src: url(./fonts/VT323.ttf) format("truetype");
+}
+
+@keyframes blinking {
+
+    from{background-color: #5abfad;}
+    to{background-color: transparent;}
+    
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+  }
+
+::-webkit-scrollbar-track {
+background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+background: white; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+body{
+    background-color: #23292F;
+    
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.softpurple{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#b392f0;
+    text-shadow: 1px 1px 4px #b392f0;
+
+
+}
+
+.softpurpleP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#b392f0;
+
+}
+
+.softgold{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#E5c07b;
+
+}
+
+.hardgold{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#ffb347;
+
+    text-shadow: 1px 1px 4px #ffb347;
+
+
+}
+
+.hardgoldB{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#ffb347;
+
+    text-shadow: 1px 1px 4px #ffb347;
+    font-weight: bold;
+
+
+}
+
+.softred{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#f97683;
+    text-shadow: 1px 1px 4px #f97683;
+
+}
+
+.softredP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#f97683;
+
+}
+
+.softredH{
+
+    font-family: monospace;
+    font-size: 1.5vw;
+
+    background-color: transparent;
+    color:#f97683;
+    text-shadow: 1px 1px 4px #f97683;
+
+}
+
+.dirtyblue{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#56b6c2;
+    text-shadow: 1px 1px 4px #56b6c2;
+
+}
+
+
+.dirtyblueP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#56b6c2;
+
+}
+
+.pureblue{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#79b8ff;
+
+    text-shadow: 1px 1px 4px #79b8ff;
+
+}
+
+.pureblueU{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#79b8ff;
+
+    text-shadow: 1px 1px 4px #79b8ff;
+    text-decoration: underline;
+
+}
+
+.pureblueP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#79b8ff;
+
+}
+
+.softgreen{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#5abfad;
+
+    text-shadow: 1px 1px 4px #5abfad;
+
+
+}
+
+.softgreenP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#5abfad;
+
+
+}
+
+
+#terminalinput{
+
+    width: 100%;
+    background-color: transparent;
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    cursor: text;
+
+}
+
+#terminaloutput{
+
+    margin: 0;
+
+    
+
+    font-family:monospace;
+    font-size: 1.2vw;
+
+    color:white;
+    background-color: transparent;
+
+    overflow-y: scroll;
+    word-break: break-word;
+
+    white-space: pre-wrap;
+     
+
+
+}
+
+#commandLine{
+
+    width: 75%;
+
+    background-color: transparent;
+
+    border-style: none;
+    outline: none;
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+
+}
+
+#scanlines{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#caret{
+
+    position: absolute;
+    width: 4px;
+    height: auto;
+
+    
+
+
+    background-color: #5abfad;
+
+    animation-name: blinking;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
