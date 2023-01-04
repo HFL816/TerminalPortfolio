@@ -1,6 +1,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta id = "vp" name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            if (screen.width < 512) {
+                var mvp = document.getElementById('vp');
+                mvp.setAttribute('content','width=512');
+            }
+            </script>
+
         <title>Henrique F. Lee</title>
         <link type="text/css" rel="stylesheet" href="TerminalStyleSheet.css">
 
