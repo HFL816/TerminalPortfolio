@@ -179,6 +179,10 @@ function processInput(inputField,outputField){
             showAbout(true);
             break;
 
+        case "resume":
+            showResume();
+            break;
+
         case "education":
             showEducation(true);
             break;
@@ -227,6 +231,7 @@ function initializeFields(){
     commandList.add("help");
     commandList.add("a command");
     commandList.add("about");
+    commandList.add("resume");
     commandList.add("education");
     commandList.add("projects");
     commandList.add("skills");
@@ -304,6 +309,8 @@ function initializeFields(){
                  "   - Lists detailed view of each command\n\n",
                  "about\n",
                  "   - Information regarding my background\n\n",
+                 "resume\n",
+                 "   - View my resume in a new tab\n\n",
                  "education\n",
                  "   - Relevant coursework, attended institutions, etc\n\n"+
                  "projects\n"+
@@ -325,6 +332,8 @@ function initializeFields(){
                    [[0,""],[help_txts[2].length,"softpurple"]],
                    [[0,""],[help_txts[3].length,"softgold"]],
                    [[0,""],[help_txts[4].length,"softpurple"]],
+                   [[0,""],[help_txts[5].length,"softgold"]],
+                   [[0,""],[help_txts[6].length,"softpurple"]],
 
                    [[0,""],
                     [52,"softgold"],
@@ -359,6 +368,8 @@ function initializeFields(){
                   "   - Lists detailed view of each command\n\n"+
                   "about\n"+
                   "   - Information regarding my background\n\n"+
+                  "resume\n"+
+                  "   -  View my resume in a new tab\n\n"+
                   "education\n"+
                   "   - Relevant coursework, attended institutions, etc\n\n"+
                   "projects\n"+
@@ -387,19 +398,21 @@ function initializeFields(){
                     [269,"softgold"],
                     [276,"softpurple"],
                     [317,"softgold"],
-                    [328,"softpurple"],
-                    [381,"softgold"],
-                    [391,"softpurple"],
-                    [431,"softgold"],
-                    [439,"softpurple"],
-                    [454,"softgold"],
-                    [459,"softpurple"],
-                    [494,"softgold"],
+                    [324,"softpurple"],
+                    [360,"softgold"],
+                    [373,"softpurple"],
+                    [424,"softgold"],
+                    [436,"softpurple"],
+                    [472,"softgold"],
+                    [480,"softpurple"],
+                    [496,"softgold"],
                     [503,"softpurple"],
-                    [524,"softgold"],
-                    [531,"softpurple"],
-                    [558,"softgold"],
-                    [563,"softpurple"],
+                    [534,"softgold"],
+                    [541,"softpurple"],
+                    [564,"softgold"],
+                    [573,"softpurple"],
+                    [598,"softgold"],
+                    [605,"softpurple"],
                     [intro_txts[5].length,"softgold"]]];
     
 
@@ -747,27 +760,8 @@ function showAbout(helped){
 
     commandLine.readOnly = true;
 
-    /*
-
-    if(helped){
-        appendToTerminalOutput_Typed(terminalOutput,about_txt + return_txt,
-            about_breaks.concat([[about_txt.length + 42,"softgold"],
-                                 [about_txt.length + 46,"softpurple"],
-                                 [about_txt.length + 57,"softgold"],
-                                 [about_txt.length + return_txt.length-3,"pureblue"],
-                                 [about_txt.length + return_txt.length,"softgold"]]),
-            1,commandLine);
-
-    }
-    else{
-        appendToTerminalOutput_Typed(terminalOutput,about_txt,about_breaks,1,commandLine);
-    }
-
-    */
-
     appendToTerminalOutput_Lines(terminalOutput,about_txts,about_breaks,1,commandLine);
-
-    
+   
 
 }
 
@@ -790,6 +784,11 @@ function showLav(helped){
         appendToTerminalOutput_Typed(terminalOutput,lav_txt,lav_breaks,1,commandLine);
     }
 
+}
+
+function showResume(){
+    window.open("files/Resume.pdf");
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 function showAll(){
