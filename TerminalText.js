@@ -162,6 +162,8 @@ function processInput(inputField,outputField){
 
     let outputText = inputField.value.toLowerCase();
     
+    if(outputText.length == 0){return;}
+    
     inputField.value = "";
     appendToTerminalOutput_Flat(outputField,outputText);
 
