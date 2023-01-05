@@ -161,7 +161,7 @@ function appendToTerminalOutput_Flat(terminalOutput,s){
 function processInput(inputField,outputField){
 
     let outputText = inputField.value.toLowerCase();
-    
+
     if(outputText.length == 0){return;}
     
     inputField.value = "";
@@ -496,8 +496,8 @@ function initializeFields(){
                     "             that evolve based on interactions with other entities as well as their environment.\n",
                     "Tags: Unity, Behavior Trees, Genetic Algorithms\n\n",
 
-                    "Level Surface Procedural Generation\n",
-                    "Languages: Python, C#\n",
+                    "N-Bubble Generation\n",
+                    "Languages: Java, C#\n",
                     "Description: Leveraged mathematical level sets to design a series of algorithms that provide a\n",
                     "             unique approach to procedurally generated terrain in two and three dimensions.\n",
                     "Tags: Multivariable Calculus, Unity, Procedural Generation\n\n",
