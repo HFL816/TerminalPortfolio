@@ -354,7 +354,7 @@ function initializeFields(){
                     [275,"softpurple"],
                     [285,"softgold"],
                     [291,"pureblue"],
-                    [help_txts[5].length,"softgold"]]];
+                    [help_txts[7].length,"softgold"]]];
 
 
             
