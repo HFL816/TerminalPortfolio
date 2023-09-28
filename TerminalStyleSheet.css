@@ -50,6 +50,7 @@ p{
     color:#b392f0;
     text-shadow: 1px 1px 4px #b392f0;
 
+    cursor:pointer;
 
 }
 
@@ -64,6 +65,18 @@ p{
 }
 
 .softgold{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#E5c07b;
+
+    text-shadow: 1px 1px 4px #E5c07b;
+
+}
+
+.softgoldP{
 
     font-family: monospace;
     font-size: 1.2vw;
