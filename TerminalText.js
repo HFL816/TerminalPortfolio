@@ -160,7 +160,7 @@ function appendToTerminalOutput_Flat(terminalOutput,s){
 
 function processInput(inputField,outputField){
 
-    let outputText = inputField.value.toLowerCase();
+    let outputText = inputField.value.toLowerCase().trim();
 
     if(outputText.length == 0){return;}
     
@@ -282,27 +282,27 @@ function initializeFields(){
 
     help_breaks = [[0,""],
                    [4,"softpurple"],
-                   [45,"softgold"],
+                   [45,"softgoldP"],
                    [52,"softpurple"],
-                   [93,"softgold"],
+                   [93,"softgoldP"],
                    [108,"softpurple"],
-                   [157,"softgold"],
+                   [157,"softgoldP"],
                    [170,"softpurple"],
-                   [208,"softgold"],
+                   [208,"softgoldP"],
                    [217,"softpurple"],
-                   [231,"softgold"],
+                   [231,"softgoldP"],
                    [236,"softpurple"],
-                   [271,"softgold"],
+                   [271,"softgoldP"],
                    [276,"softpurple"],
-                   [301,"softgold"],
+                   [301,"softgoldP"],
                    [310,"softpurple"],
-                   [335,"softgold"],
+                   [335,"softgoldP"],
                    [340,"softpurple"],
-                   [371,"softgold"],
+                   [371,"softgoldP"],
                    [381,"softpurple"],
-                   [390,"softgold"],
+                   [390,"softgoldP"],
                    [396,"pureblue"],
-                   [help_txt.length,"softgold"]];
+                   [help_txt.length,"softgoldP"]];
 
     */
 
@@ -316,7 +316,7 @@ function initializeFields(){
                  "education\n",
                  "   - Relevant coursework, attended institutions, etc\n\n"+
                  "projects\n"+
-                 "   - Personal Computer Science ventures\n\n"+
+                 "   - Research and personal Computer Science ventures\n\n"+
                  "skills\n"+
                  "   - My toolkit\n\n"+
                  "lav\n"+
@@ -327,34 +327,35 @@ function initializeFields(){
                 "   - Display all content\n\n"+
                  "reset\n"+
                  "   - Reset the terminal\n\n"+
-                 "Type a command and press enter to explore!\n\n"];
+                 "Type or click a command and press enter to explore!\n\n"];
 
     help_breaks = [[[0,""],[help_txts[0].length,"softpurple"]],
-                   [[0,""],[help_txts[1].length,"softgold"]],
+                   [[0,""],[help_txts[1].length,"softgoldP"]],
                    [[0,""],[help_txts[2].length,"softpurple"]],
-                   [[0,""],[help_txts[3].length,"softgold"]],
+                   [[0,""],[help_txts[3].length,"softgoldP"]],
                    [[0,""],[help_txts[4].length,"softpurple"]],
-                   [[0,""],[help_txts[5].length,"softgold"]],
+                   [[0,""],[help_txts[5].length,"softgoldP"]],
                    [[0,""],[help_txts[6].length,"softpurple"]],
 
                    [[0,""],
-                    [52,"softgold"],
+                    [52,"softgoldP"],
                     [62,"softpurple"],
-                    [102,"softgold"],
-                    [110,"softpurple"],
-                    [126,"softgold"],
-                    [131,"softpurple"],
-                    [164,"softgold"],
-                    [171,"softpurple"],
-                    [194,"softgold"],
-                    [203,"softpurple"],
-                    [228,"softgold"],
-                    [235,"softpurple"],
-                    [265,"softgold"],
-                    [275,"softpurple"],
-                    [285,"softgold"],
-                    [291,"pureblue"],
-                    [help_txts[7].length,"softgold"]]];
+                    [102,"softgoldP"],
+                    [117,"softgoldP"],
+                    [123,"softpurple"],
+                    [140,"softgoldP"],
+                    [144,"softpurple"],
+                    [177,"softgoldP"],
+                    [184,"softpurple"],
+                    [207,"softgoldP"],
+                    [216,"softpurple"],
+                    [241,"softgoldP"],
+                    [248,"softpurple"],
+                    [288,"softgoldP"],
+                    [297,"softpurple"],
+                    [308,"softgoldP"],
+                    [313,"pureblue"],
+                    [help_txts[7].length,"softgoldP"]]];
 
 
             
@@ -365,7 +366,7 @@ function initializeFields(){
                   "|   __   | |   __|  |  . `  | |      /  |  | |  |  |  |  |  |  |  | |   __|     |   __|       |  |     |   __|  |   __|  \n",
                   "|  |  |  | |  |____ |  |\\   | |  |\\  \\  |  | |  '--'  |  |  '--'  | |  |____    |  |    __    |  `----.|  |____ |  |____ \n",
                   "|__|  |__| |_______||__| \\__| | _| \\._\\ |__|  \\_____\\__\\  \\______/  |_______|   |__|   (__)   |_______||_______||_______|\n\n"+
-                  "Welcome, here are a list of available commands, type a command and press enter to begin exploring:\n\n" + 
+                  "Welcome, here are a list of available commands, type or click a command and press enter to begin exploring:\n\n" + 
                   "help\n" + 
                   "   - Lists detailed view of each command\n\n"+
                   "about\n"+
@@ -375,7 +376,7 @@ function initializeFields(){
                   "education\n"+
                   "   - Relevant coursework, attended institutions, etc\n\n"+
                   "projects\n"+
-                  "   - Personal Computer Science ventures\n\n"+
+                  "   - Research and personal Computer Science ventures\n\n"+
                   "skills\n"+
                   "   - My toolkit\n\n"+
                   "lav\n"+
@@ -394,28 +395,28 @@ function initializeFields(){
                    [[0,""],[intro_txts[4].length,"pureblue"]],
 
                    [[0,""],[121,"pureblue"],
-                    [175,"softgold"],[185,"softpurple"],[195,"softgold"],[201,"pureblue"],
-                    [221,"softgold"],
-                    [228,"softpurple"],
-                    [269,"softgold"],
-                    [276,"softpurple"],
-                    [317,"softgold"],
-                    [324,"softpurple"],
-                    [360,"softgold"],
-                    [373,"softpurple"],
-                    [424,"softgold"],
-                    [436,"softpurple"],
-                    [472,"softgold"],
-                    [480,"softpurple"],
-                    [496,"softgold"],
-                    [503,"softpurple"],
-                    [534,"softgold"],
-                    [541,"softpurple"],
-                    [564,"softgold"],
-                    [573,"softpurple"],
-                    [598,"softgold"],
-                    [605,"softpurple"],
-                    [intro_txts[5].length,"softgold"]]];
+                    [185,"softgoldP"],[195,"softpurple"],[205,"softgoldP"],[211,"pureblue"],
+                    [231,"softgoldP"],
+                    [238,"softpurple"],
+                    [279,"softgoldP"],
+                    [286,"softpurple"],
+                    [327,"softgoldP"],
+                    [334,"softpurple"],
+                    [367,"softgoldP"],
+                    [378,"softpurple"],
+                    [433,"softgoldP"],
+                    [444,"softpurple"],
+                    [494,"softgoldP"],
+                    [502,"softpurple"],
+                    [518,"softgoldP"],
+                    [525,"softpurple"],
+                    [556,"softgoldP"],
+                    [563,"softpurple"],
+                    [586,"softgoldP"],
+                    [595,"softpurple"],
+                    [620,"softgoldP"],
+                    [627,"softpurple"],
+                    [intro_txts[5].length,"softgoldP"]]];
     
 
 
@@ -425,42 +426,44 @@ function initializeFields(){
                 "Instagram      hfl_16\n\n";
 
     media_breaks = [[0,""],
-                    [15,"softgold"],
+                    [15,"softgoldP"],
                     [40,"pureblue"],
-                    [57,"softgold"],
+                    [57,"softgoldP"],
                     [-63,"pureblueU","https://github.com/HFL816"],
-                    [80,"softgold"],
+                    [80,"softgoldP"],
                     [-95,"pureblueU","https://www.linkedin.com/in/henrique-f-lee-666475256"],
-                    [112,"softgold"],
+                    [112,"softgoldP"],
                     [-media_txt.length,"pureblueU","https://www.instagram.com/hfl_16/"]]; //TODO: INSERT LINKS
 
-    skills_txts = ["Programming Languages:                              Game Engines:                              Data Analysis:\n\n",
-                   "           C#: ■ ■ ■ ■ □                               Unity: ■ ■ ■ ■ □                           Julia: ■ ■ ■ ■ □\n\n",
-                   "   Javascript: ■ ■ ■ ■ □                          Game Maker: ■ ■ ■ □ □                           Excel: ■ ■ ■ □ □\n\n",
-                   "         Java: ■ ■ ■ ■ □\n\n",
-                   "       Python: ■ ■ ■ ■ □                                                                           Languages:\n\n",
-                   "            C: ■ ■ ■ □ □                             Digital Art:                               English: Native\n\n",
-                   "     HTML/CSS: ■ ■ ■ □ □                           Photoshop: ■ ■ ■ ■ □                         Spanish: Native\n\n",
-                   "        Swift: ■ ■ □ □ □                             Blender: ■ ■ ■ ■ □                      Portuguese: Native\n\n",
-                   "         HLSL: ■ ■ □ □ □                            Aseprite: ■ ■ ■ □ □                        Mandarin: 7+ years\n\n"];
+    skills_txts = ["Programming Languages:                                     Game Engines:                       Data Analysis:\n\n",
+                   "           C#: ■ ■ ■ ■ ■                                      Unity: ■ ■ ■ ■ ■                    LaTex: ■ ■ ■ ■ □\n\n",
+                   "         Java: ■ ■ ■ ■ □                                 Game Maker: ■ ■ ■ □ □                    Excel: ■ ■ ■ □ □\n\n",
+                   "   JavaScript: ■ ■ ■ ■ □\n\n",
+                   "       Python: ■ ■ ■ ■ □                                                                        Languages:\n\n",
+                   "          SML: ■ ■ ■ ■ □                                 Unity XR SDK's:                        English: Native\n\n",
+                   "            C: ■ ■ ■ □ □                     XR Interaction Toolkit: ■ ■ ■ ■ □                  Spanish: Native\n\n",
+                   "     HTML/CSS: ■ ■ ■ □ □              Oculus VR Integration Toolkit: ■ ■ ■ ■ □               Portuguese: Native\n\n",
+                   "         HLSL: ■ ■ □ □ □                                  VIVE Wave: ■ ■ ■ □ □                 Mandarin: Advanced\n\n"];
 
-    skills_breaks = [[[0,""],[skills_txts[0].length,"hardgold"]],
-                     [[0,""],[15,"softgold"],[25,"pureblue"],[61,"softgold"],[73,"pureblue"],[104,"softgold"],[skills_txts[1].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[25,"pureblue"],[61,"softgold"],[73,"pureblue"],[104,"softgold"],[skills_txts[2].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[skills_txts[3].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[73,"pureblue"],[109,"hardgold"],[skills_txts[4].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[25,"pureblue"],[65,"hardgold"],[73,"pureblue"],[104,"softgold"],[skills_txts[5].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[25,"pureblue"],[61,"softgold"],[73,"pureblue"],[104,"softgold"],[skills_txts[6].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[25,"pureblue"],[61,"softgold"],[73,"pureblue"],[104,"softgold"],[skills_txts[7].length,"pureblue"]],
-                     [[0,""],[15,"softgold"],[25,"pureblue"],[61,"softgold"],[73,"pureblue"],[104,"softgold"],[skills_txts[8].length,"pureblue"]]];
+    skills_breaks = [[[0,""],                                                                                    [skills_txts[0].length,"hardgold"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[1].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[2].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],                                                                   [skills_txts[3].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],                                                   [skills_txts[4].length,"hardgold"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[72,"hardgold"]                 ,[104,"softgoldP"],[skills_txts[5].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[6].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[7].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[8].length,"pureblue"]]];
 
     education_txt = "Carnegie Mellon University, School of Computer Science\n\n"+
-                    "Bachelor of Science in Computer Science (current)\n\n"+
-                    "GPA: 3.73/4.0 \n\n"+
+                    "Bachelor of Science in Computer Science (Current)\n\n"+
+                    "GPA: 3.67\n\n"+
                     "Selected Coursework:\n"+
-                    "   -Matrices and Linear Transformations (21-241)\n"+
-                    "   -Mathematical Foundations for Computer Science (15-151)\n"+
-                    "   -Principles of Imperative Computation (15-122)\n\n\n"+
+                    "   -Interactive Extended Reality (05-499)\n" + 
+                    "   -Introduction to Computer Systems (15-213)\n"+
+                    "   -Vector Calculus for Computer Scientists (21-266)\n"+
+                    "   -Great Ideas in Theoretical Computer Science (15-251)\n"+
+                    "   -Principles of Imperative Computing (15-122)\n\n\n" + 
                     "Singapore American School\n\n"+
                     "High School Diploma\n\n"+
                     "GPA: 4.3\n\n"+
@@ -472,95 +475,118 @@ function initializeFields(){
 
     education_breaks = [[0,""],
                         [54,"hardgold"],
-                        [105,"pureblueP"],
+                        [96,"pureblueP"],
+                        [105,"softred"],
                         [111,"softgreenP"],
-                        [120,"softgold"],
-                        [143,"dirtyblueP"],
-                        [185,"softgold"],
-                        [-191,"pureblueU","https://www.math.cmu.edu/~ldietric/21-241/syllabus.pdf"], //TODO: Check copyrights
-                        [244,"softgold"],
-                        [-250,"pureblueU","https://www.math.cmu.edu/~jmackey/151_128/syll.html"],
-                        [294,"softgold"],
-                        [-300,"pureblueU","https://www.cs.cmu.edu/~15122/"],
-                        [304,"softgold"],
-                        [329,"hardgold"],
-                        [350,"pureblueP"],
-                        [356,"softgreenP"],
-                        [360,"softgold"],
-                        [385,"dirtyblueP"],
-                        [education_txt.length,"softgold"]];
+                        [116,"softgoldP"],
+                        [141,"dirtyblueP"],
+                        [173,"softgoldP"],
+                        [-179,"pureblueU","https://cmucourses.com/course/15-251"],
+                        [219,"softgoldP"],
+                        [-225,"pureblueU","https://cmucourses.com/course/21-266"],
+                        [272,"softgoldP"],
+                        [-278,"pureblueU","https://cmucourses.com/course/21-241"],
+                        [329,"softgoldP"],
+                        [-335,"pureblueU","https://cmucourses.com/course/15-122"],
+                        [377,"softgoldP"],
+                        [383,"pureblueU","https://cmucourses.com/course/15-122"],
+                        [412,"hardgold"],
+                        [433,"pureblueP"],
+                        [439,"softgreenP"],
+                        [443,"softgoldP"],
+                        [465,"dirtyblueP"],
+                        [education_txt.length,"softgoldP"]];
 
-    projects_txts = ["ICOE\n",
-                    "Languages: C#\n",
-                    "Description: Architected and developed a framework that allows game developers to create in-game entities  \n", 
-                    "             that evolve based on interactions with other entities as well as their environment.\n",
-                    "Tags: Unity, Behavior Trees, Genetic Algorithms\n\n",
+    projects_txts = [ 
 
-                    "N-Bubble Generation\n",
-                    "Languages: Java, C#\n",
-                    "Description: Leveraged mathematical level sets to design a series of algorithms that provide a\n",
-                    "             unique approach to procedurally generated terrain in two and three dimensions.\n",
-                    "Tags: Multivariable Calculus, Unity, Procedural Generation\n\n",
+                    "Exploring the Limits of AR Body Ownership through Acupuncture Simulation (Ongoing)\n",
+                    "Description: Leveraged Unity's Oculus Integration Toolkit to create an augmented reality acupuncture simulation\n", 
+                    "             for the Oculus Quest Pro. Subsequently led a study exploring if the simulation can successfully \n",
+                    "             be used as a placebo in acupuncture treatments. (APL Research)\n",
+                    "Tags: Unity, Oculus Integration Toolkit, Body Ownership \n",
+                    "Video: TOINSERT\n\n",
                     
-                    "Darwin's Game\n",
-                    "Languages: Java, C#\n"+
-                    "Description: Based on Conway\'s game of life, Darwin\'s game is a cellular automata simulation where different organisms\n"+ 
-                    "             with unique characteristics compete for scarce resources to see which traits are more favorable under\n"+ 
-                    "             different environmental conditions.\n"+
-                    "Tags: Cellular Automata, Simulation, Evolution\n\n"+
+                    "XR Lightweight Hand Pose Recognizer\n",
+                    "Description: Designed and thoroughly optimized a Unity system allowing developers to create custom hand poses \n",
+                    "             that can then be recognized by any XR headset rigging. Developers are then able to control program\n",
+                    "             behavior when poses are executed, held, and terminated. (Personal Project)\n",
+                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n",
+                    "GITHUB TO INSERT\n\n",
 
-                    "OOP Lecture Curriculum\n"+
-                    "Languages: Java\n"+
-                    "Description: Created a series of detailed video lectures and presentations teaching all of the fundamental\n"+ 
-                    "             concepts behind Object Oriented Programming.\n"+ 
-                    "Tags: OOP, Teaching\n\n"];
+                    "Investigating the Impact of Interaction Techniques on Immersion in VR Environments\n",
+                    "Description: Created and tested virtual reality environments featuring different forms of deliberately flawed \n",
+                    "             interaction techniques in virtual reality and used these environments in a user study to analyze \n",
+                    "             the effect that the flaws had on user immersion. (APL Research)\n",
+                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n",
+                    "VIDEO TO INSERT\n\n",
+        
+                    "ICOE\n",
+                    "Description: Designed and implemented a generalized framework that allows game developers to create in-game \n", 
+                    "             entities that evolve procedurally in their behaviour, appearence, and innate characteristics based.\n",
+                    "             on interactions with other entities as well as with their environment (Personal Project)",
+                    "Tags: Unity, Behavior Trees, Genetic Algorithms\n",
+                    "GITHUB TO INSERT\n\n"
+                ];
 
 
-    //projects_breaks = [[0,""],[projects_txt.length,"softgold"]];
-    projects_breaks = [[[0,""],[projects_txts[0].length,"hardgold"]],
-                       [[0,""],[10,"softgreenP"],[projects_txts[1].length,"softgreen"]],
-                       [[0,""],[12,"dirtyblueP"],[projects_txts[2].length,"softgold"]],
-                       [[0,""],[projects_txts[3].length,"softgold"]],
-                       [[0,""],[5,"pureblueP"],[projects_txts[4].length,"pureblue"]],
-                       [[0,""],[projects_txts[5].length,"hardgold"]],
-                       [[0,""],[10,"softgreenP"],[projects_txts[6].length,"softgreen"]],
-                       [[0,""],[12,"dirtyblueP"],[projects_txts[7].length,"softgold"]],
-                       [[0,""],[projects_txts[8].length,"softgold"]],
-                       [[0,""],[5,"pureblueP"],[projects_txts[9].length,"pureblue"]],
-                       [[0,""],[projects_txts[10].length,"hardgold"]],
+    //projects_breaks = [[0,""],[projects_txt.length,"softgoldP"]];
+    projects_breaks = [[[0,""],[73,"hardgold"],[projects_txts[0].length,"softred"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[1].length,"softgoldP"]],
+                       [[0,""],[projects_txts[2].length,"softgoldP"]],
+                       [[0,""],[60,"softgoldP"],[projects_txts[3].length,"softred"]],
+                       [[0,""],[5,"pureblue"],[projects_txts[4].length,"pureblueP"]],
+                       [[0,""],[projects_txts[5].length,"softpurple"]],
+                       [[0,""],[projects_txts[6].length,"hardgold"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[7].length,"softgoldP"]],
+                       [[0,""],[projects_txts[8].length,"softgoldP"]],
+                       [[0,""],[69,"softgoldP"],[projects_txts[9].length,"softred"]],
+                       [[0,""],[5,"pureblue"],[projects_txts[10].length,"pureblueP"]],
+                       [[0,""],[projects_txts[11].length,"softpurple"]],
+                       [[0,""],[projects_txts[12].length,"hardgold"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[13].length,"softgoldP"]],
+                       [[0,""],[projects_txts[14].length,"softgoldP"]],
+                       [[0,""],[62,"softgoldP"],[projects_txts[15].length,"softred"]],
+                       [[0,""],[5,"pureblue"],[projects_txts[16].length,"pureblueP"]],
+                       [[0,""],[projects_txts[17].length,"softpurple"]],
+                       [[0,""],[projects_txts[18].length,"hardgold"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[19].length,"softgoldP"]],
+                       [[0,""],[projects_txts[20].length,"softgoldP"]],
+                       [[0,""],[83,"softgoldP"],[projects_txts[21].length,"softred"]],
+                       [[0,""],[5,"pureblue"],[projects_txts[22].length,"pureblueP"]],
+                       [[0,""],[projects_txts[23].length,"softpurple"]],
 
                        [[0,""],
                         [10,"softgreenP"],
                         [19,"softgreen"],
                         [32,"dirtyblueP"],
-                        [302,"softgold"],
+                        [302,"softgoldP"],
                         [309,"pureblueP"],
                         [349,"pureblue"],
                         [373,"hardgold"],
                         [384,"softgreenP"],
                         [389,"softgreen"],
                         [402,"dirtyblueP"],
-                        [554,"softgold"],
+                        [554,"softgoldP"],
                         [560,"pureblueP"],
                         [projects_txts[11].length,"pureblue"]]];
 
 
-    lav_txt = "SALSA @ CMU (Spanish and Latin Student Association)\n"+
-                      "Position: Freshman Representative (\'22-\'23)\n\n"+
+    lav_txt = "APL @ CMU (Augmented Perception Lab)\n"+
+                      "Position: Undergraduate Researcher (\'23-\'Current)\n\n"+
                       "ECHO @ SAS (Educating Children of Hispanic Origin)\n"+
                       "Position: Vice President (\'19-\'20), President (\'20,\'22)\n\n"+
                       "Computer Science Honor Society @ SAS\n"+
                       "Position: Co-President (\'21-\'22)\n\n";
 
     lav_breaks=[[0,""],
-                [51,"hardgold"],
-                [62,"pureblueP"],
-                [96,"pureblue"],
-                [147,"hardgold"],
-                [157,"pureblueP"],
-                [203,"pureblue"],
-                [241,"hardgold"],
-                [251,"pureblueP"],
+                [36,"hardgold"],
+                [46,"pureblueP"],
+                [86,"pureblue"],
+                [139,"hardgold"],
+                [148,"pureblueP"],
+                [194,"pureblue"],
+                [232,"hardgold"],
+                [243,"pureblueP"],
                 [lav_txt.length,"pureblue"]];
 
     /*
@@ -575,17 +601,17 @@ function initializeFields(){
                  "feel free to email me at henriqueflee816@gmail.com.\n\n";
 
     about_breaks = [[0,""],
-                    [87,"softgold"],
+                    [87,"softgoldP"],
                     [-131,"pureblueU","https://www.cs.cmu.edu/"],
-                    [297,"softgold"],
+                    [297,"softgoldP"],
                     [311,"softgreen"],
-                    [360,"softgold"],
+                    [360,"softgoldP"],
                     [376,"softgreen"],
-                    [381,"softgold"],
+                    [381,"softgoldP"],
                     [397,"softgreen"],
-                    [588,"softgold"],
+                    [588,"softgoldP"],
                     [about_txt.length-3,"pureblue"],
-                    [about_txt.length,"softgold"]];
+                    [about_txt.length,"softgoldP"]];
 
     */
 
@@ -605,29 +631,29 @@ function initializeFields(){
                   "On this website, you will find a bit more about my accomplishments and intellectual curiosities. If you have any enquiries or questions,"+
                   " feel free to email me at henriqueflee816@gmail.com.\n\n"];
 
-    about_breaks = [[[0,""],[87,"softgold"],[-(about_txts[0].length-2),"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgold"]],
+    about_breaks = [[[0,""],[87,"softgoldP"],[-(about_txts[0].length-2),"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgoldP"]],
 
-                    [[0,""],[about_txts[1].length,"softgold"]],
-                    [[0,""],[40,"softgold"],[46,"softgreen"],[about_txts[2].length,"softgold"]],
-                    [[0,""],[42,"softgold"],[46,"softgreen"],[about_txts[3].length,"softgold"]],
-                    [[0,""],[about_txts[4].length,"softgold"]],
+                    [[0,""],[about_txts[1].length,"softgoldP"]],
+                    [[0,""],[40,"softgoldP"],[46,"softgreen"],[about_txts[2].length,"softgoldP"]],
+                    [[0,""],[42,"softgoldP"],[46,"softgreen"],[about_txts[3].length,"softgoldP"]],
+                    [[0,""],[about_txts[4].length,"softgoldP"]],
 
                     [[0,""],
-                     [31,"softgold"],
+                     [31,"softgoldP"],
                      [46,"softgreen"],
-                     [52,"softgold"],
+                     [52,"softgoldP"],
                      [68,"softgreen"],
-                     [186,"softgold"],
+                     [186,"softgoldP"],
                      [209,"softgreen"],
-                     [211,"softgold"],
+                     [211,"softgoldP"],
                      [228,"softgreen"],
-                     [230,"softgold"],
+                     [230,"softgoldP"],
                      [246,"softgreen"],
-                     [275,"softgold"],
+                     [275,"softgoldP"],
                      [291,"softgreen"],
-                     [455,"softgold"],
+                     [455,"softgoldP"],
                      [481,"pureblue"],
-                     [about_txts[5].length,"softgold"]]];
+                     [about_txts[5].length,"softgoldP"]]];
 
 
     
@@ -719,11 +745,11 @@ function showEducation(helped){
 
     if(helped){
         appendToTerminalOutput_Typed(terminalOutput,education_txt + return_txt,
-            education_breaks.concat([[education_txt.length + 42,"softgold"],
+            education_breaks.concat([[education_txt.length + 42,"softgoldP"],
                                  [education_txt.length + 46,"softpurple"],
-                                 [education_txt.length + 57,"softgold"],
+                                 [education_txt.length + 57,"softgoldP"],
                                  [education_txt.length + return_txt.length-3,"pureblue"],
-                                 [education_txt.length + return_txt.length,"softgold"]]),
+                                 [education_txt.length + return_txt.length,"softgoldP"]]),
             1,commandLine);
 
     }
@@ -738,11 +764,11 @@ function showMedia(helped){
     commandLine.readOnly = true;
     if(helped){
         appendToTerminalOutput_Typed(terminalOutput,media_txt + return_txt,
-            media_breaks.concat([[media_txt.length + 42,"softgold"],
+            media_breaks.concat([[media_txt.length + 42,"softgoldP"],
                                  [media_txt.length + 46,"softpurple"],
-                                 [media_txt.length + 57,"softgold"],
+                                 [media_txt.length + 57,"softgoldP"],
                                  [media_txt.length + return_txt.length-3,"pureblue"],
-                                 [media_txt.length + return_txt.length,"softgold"]]),
+                                 [media_txt.length + return_txt.length,"softgoldP"]]),
             1,commandLine);
     }
     else{
@@ -774,11 +800,11 @@ function showLav(helped){
     if(helped){
 
         appendToTerminalOutput_Typed(terminalOutput,lav_txt + return_txt,
-            lav_breaks.concat([[lav_txt.length + 42,"softgold"],
+            lav_breaks.concat([[lav_txt.length + 42,"softgoldP"],
                                  [lav_txt.length + 46,"softpurple"],
-                                 [lav_txt.length + 57,"softgold"],
+                                 [lav_txt.length + 57,"softgoldP"],
                                  [lav_txt.length + return_txt.length-3,"pureblue"],
-                                 [lav_txt.length + return_txt.length,"softgold"]]),
+                                 [lav_txt.length + return_txt.length,"softgoldP"]]),
             1,commandLine);
 
     }
@@ -833,18 +859,38 @@ function showAll(){
 
 function showUnknown(s){
 
-    let out_s = "The command \'" + s + "\' is unknown, please type help and press enter for a list of available commands.\n\n";
+    let out_s = "The command \'" + s + "\' is unknown, please type or click help and press enter for a list of available commands.\n\n";
     
+    //commandLine.readOnly = true;
+
     appendToTerminalOutput_Typed(terminalOutput,out_s,
-                                 [[0,""],[13,"softgold"],[13+s.length,"dirtyblueP"],[39+s.length,"softgold"],[43+s.length,"softpurple"],[54+s.length,"softgold"],[59+s.length,"pureblue"],[out_s.length,"softgold"]],
+                                 [[0,""],[13,"softgoldP"],[13+s.length,"dirtyblueP"],[48+s.length,"softgoldP"],[52+s.length,"softpurple"],[63+s.length,"softgoldP"],[69+s.length,"pureblue"],[out_s.length,"softgoldP"]],
                                  1,commandLine);
+
+}
+
+function terminalOnClick(e){
+
+    if(e.target.classList[0] == "softpurple" && commandLine.readOnly == false){
+        commandLine.value = e.target.textContent.toLowerCase();
+        processInput(commandLine,terminalOutput);
+
+        
+    }
+
+
 
 }
 
 function main(){
 
+    
+
     initializeFields();
 
+    
+
+    
     document.addEventListener("keyup", function(event) {
 
         if (event.key === "Enter") {
@@ -852,7 +898,10 @@ function main(){
         }
     });
 
+    document.addEventListener("click",terminalOnClick);
+
     showIntro();
+  
 
 }
 
