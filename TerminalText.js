@@ -504,28 +504,29 @@ function initializeFields(){
                     "             for the Oculus Quest Pro. Subsequently led a study exploring if the simulation can successfully \n",
                     "             be used as a placebo in acupuncture treatments. (APL Research)\n",
                     "Tags: Unity, Oculus Integration Toolkit, Body Ownership \n",
-                    "Video: TOINSERT\n\n",
+                    "Link To Video\n\n",
                     
                     "XR Lightweight Hand Pose Recognizer\n",
                     "Description: Designed and thoroughly optimized a Unity system allowing developers to create custom hand poses \n",
                     "             that can then be recognized by any XR headset rigging. Developers are then able to control program\n",
                     "             behavior when poses are executed, held, and terminated. (Personal Project)\n",
                     "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n",
-                    "GITHUB TO INSERT\n\n",
+                    "\n\n",
 
                     "Investigating the Impact of Interaction Techniques on Immersion in VR Environments\n",
                     "Description: Created and tested virtual reality environments featuring different forms of deliberately flawed \n",
                     "             interaction techniques in virtual reality and used these environments in a user study to analyze \n",
                     "             the effect that the flaws had on user immersion. (APL Research)\n",
                     "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n",
-                    "VIDEO TO INSERT\n\n",
+                    "\n\n",
         
-                    "ICOE\n",
-                    "Description: Designed and implemented a generalized framework that allows game developers to create in-game \n", 
-                    "             entities that evolve procedurally in their behaviour, appearence, and innate characteristics based.\n",
-                    "             on interactions with other entities as well as with their environment (Personal Project)",
+                    "Icospheres Capable of Evolution (ICOE)\n",
+                    "Description: Designed a framework consisting of ~21 Unity components and backend classes that implement a \n", 
+                    "             dynamic behavior tree generated using genetic algorithms. The framework allows game developers to .\n",
+                    "             create in-game entities whose physical appearances and behaviors evolve based on interactions with\n",
+                    "             other entities as well as their environment. (Personal Project)\n",
                     "Tags: Unity, Behavior Trees, Genetic Algorithms\n",
-                    "GITHUB TO INSERT\n\n"
+                    "Link To Video\n\n"
                 ];
 
 
@@ -534,26 +535,27 @@ function initializeFields(){
                        [[0,""],[12,"softgreen"],[projects_txts[1].length,"softgoldP"]],
                        [[0,""],[projects_txts[2].length,"softgoldP"]],
                        [[0,""],[60,"softgoldP"],[projects_txts[3].length,"softred"]],
-                       [[0,""],[5,"pureblue"],[projects_txts[4].length,"pureblueP"]],
-                       [[0,""],[projects_txts[5].length,"softpurple"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[4].length,"dirtyblueP"]],
+                       [[0,""],[-projects_txts[5].length,"pureblueU","https://youtu.be/l7kz3PUt-Pw"]],
                        [[0,""],[projects_txts[6].length,"hardgold"]],
                        [[0,""],[12,"softgreen"],[projects_txts[7].length,"softgoldP"]],
                        [[0,""],[projects_txts[8].length,"softgoldP"]],
                        [[0,""],[69,"softgoldP"],[projects_txts[9].length,"softred"]],
-                       [[0,""],[5,"pureblue"],[projects_txts[10].length,"pureblueP"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[10].length,"dirtyblueP"]],
                        [[0,""],[projects_txts[11].length,"softpurple"]],
                        [[0,""],[projects_txts[12].length,"hardgold"]],
                        [[0,""],[12,"softgreen"],[projects_txts[13].length,"softgoldP"]],
                        [[0,""],[projects_txts[14].length,"softgoldP"]],
                        [[0,""],[62,"softgoldP"],[projects_txts[15].length,"softred"]],
-                       [[0,""],[5,"pureblue"],[projects_txts[16].length,"pureblueP"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[16].length,"dirtyblueP"]],
                        [[0,""],[projects_txts[17].length,"softpurple"]],
                        [[0,""],[projects_txts[18].length,"hardgold"]],
                        [[0,""],[12,"softgreen"],[projects_txts[19].length,"softgoldP"]],
                        [[0,""],[projects_txts[20].length,"softgoldP"]],
-                       [[0,""],[83,"softgoldP"],[projects_txts[21].length,"softred"]],
-                       [[0,""],[5,"pureblue"],[projects_txts[22].length,"pureblueP"]],
-                       [[0,""],[projects_txts[23].length,"softpurple"]],
+                       [[0,""],[projects_txts[21].length,"softgoldP"]],
+                       [[0,""],[58,"softgoldP"],[projects_txts[22].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[23].length,"dirtyblueP"]],
+                       [[0,""],[-projects_txts[24].length,"pureblueU","https://youtu.be/wIiD3CDTCD0"]],
 
                        [[0,""],
                         [10,"softgreenP"],
@@ -617,43 +619,34 @@ function initializeFields(){
 
 
 
-    about_txts = ["Hello! My name is Henrique F. Lee, welcome to my website! I am currently a freshman in Carnegie Mellon’s School of Computer Science.\n",
-                  "My family is originally from Brazil and Colombia, but I grew up in the United States and Singapore.\n\n",
+    about_txts = ["Hello! My name is Henrique F. Lee, welcome to my website! I am currently a sophomore in Carnegie Mellon’s School of Computer Science.\n",
+                  "as a Computer Science Major with a concentration in Computer Systems. My family is originally from Brazil and Colombia, but I grew up\n",
+                  "in the United States and Singapore.\n\n",
                 
-                  "I started coding around 10 years ago in Python, as I started using the language in summer courses and independent projects that\n",
-                  "expanded my knowledge of the language and OOP as a whole. Once I reached high school, I began delving into different areas of\n",
-                  "Computer Science whenever I had free time on my hands.\n\n",
-                
-                  "I spent summers learning about Data Structures, and Machine Learning at university programs hosted at Harvard, Brown, and\n"+
-                  "UT Austin, and created my own projects exploring topics such as App and Web Development, Simulation Theory, Render Pipelines,\n"+
-                  " and my personal favorite, Game Development.\n\n"+
+                  "I started coding around 11 years ago in hopes of creating video games when I grew up, and I am glad to say my passion for both\n",
+                  "computer science and game development have only grown since then! Beyond the classroom I have done countless independent projects\n",
+                  "exploring different areas of computer science including Machine Learning, App and Web Development, Render Pipelines, Simulation Theory,\n",
+                  "and Procedural Generation.\n\n",
 
-                  "On this website, you will find a bit more about my accomplishments and intellectual curiosities. If you have any enquiries or questions,"+
-                  " feel free to email me at henriqueflee816@gmail.com.\n\n"];
+                  "At CMU, I have had honor of becoming a full time researcher in the Augmented Perception Lab, where I work alongside faculty, graduate\n",
+                  "students, and fellow undergraduates to push the boundaries of Virtual, Augmented, and Mixed reality.\n\n",
+                  
+                  "On this website, you will find a bit more about my accomplishments and intellectual curiosities. If you have any enquiries or\n",
+                  "questions, feel free to email me at henriqueflee816@gmail.com.\n\n"]
 
-    about_breaks = [[[0,""],[87,"softgoldP"],[-(about_txts[0].length-2),"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgoldP"]],
 
-                    [[0,""],[about_txts[1].length,"softgoldP"]],
-                    [[0,""],[40,"softgoldP"],[46,"softgreen"],[about_txts[2].length,"softgoldP"]],
-                    [[0,""],[42,"softgoldP"],[46,"softgreen"],[about_txts[3].length,"softgoldP"]],
+    about_breaks = [[[0,""],[88,"softgoldP"],[-(about_txts[0].length-2),"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgoldP"]],
+                    [[0,""],[5,"softgoldP"],[68,"softgreen"],[about_txts[1].length,"softgoldP"]],
+                    [[0,""],[about_txts[2].length,"softgoldP"]],
+                    [[0,""],[about_txts[3].length,"softgoldP"]],
                     [[0,""],[about_txts[4].length,"softgoldP"]],
-
-                    [[0,""],
-                     [31,"softgoldP"],
-                     [46,"softgreen"],
-                     [52,"softgoldP"],
-                     [68,"softgreen"],
-                     [186,"softgoldP"],
-                     [209,"softgreen"],
-                     [211,"softgoldP"],
-                     [228,"softgreen"],
-                     [230,"softgoldP"],
-                     [246,"softgreen"],
-                     [275,"softgoldP"],
-                     [291,"softgreen"],
-                     [455,"softgoldP"],
-                     [481,"pureblue"],
-                     [about_txts[5].length,"softgoldP"]]];
+                    [[0,""],[55,"softgoldP"],[72,"softgreen"],[73,"softgoldP"],[97,"softgreen"],[98,"softgoldP"],[115,"softgreen"],[116,"softgoldP"],[134,"softgreen"],[about_txts[5].length,"softgoldP"]],
+                    [[0,""],[4,"softgoldP"],[25,"softgreen"],[about_txts[6].length,"softgoldP"]],
+                    [[0,""],[67,"softgoldP"],[-91,"pureblueU","https://augmented-perception.org/index"],[about_txts[7].length,"softgoldP"]],
+                    [[0,""],[about_txts[8].length,"softgoldP"]],
+                    [[0,""],[about_txts[9].length,"softgoldP"]],
+                    [[0,""],[36,"softgoldP"],[-61,"pureblueU","mailto:mail@henriqueflee816@gmail.com"],[about_txts[10].length,"softgoldP"]],
+                   ];
 
 
     
@@ -888,7 +881,7 @@ function main(){
 
     initializeFields();
 
-    
+    /*
 
     
     document.addEventListener("keyup", function(event) {
@@ -901,6 +894,9 @@ function main(){
     document.addEventListener("click",terminalOnClick);
 
     showIntro();
+    */
+
+    showAbout();
   
 
 }
