@@ -621,12 +621,12 @@ function initializeFields(){
 
     about_txts = ["Hello! My name is Henrique F. Lee, welcome to my website! I am currently a sophomore in Carnegie Mellon’s School of Computer Science.\n",
                   "as a Computer Science Major with a concentration in Computer Systems. My family is originally from Brazil and Colombia, but I grew up\n",
-                  "in the United States and Singapore.\n\n",
+                  "in Singapore.\n\n",
                 
                   "I started coding around 11 years ago in hopes of creating video games when I grew up, and I am glad to say my passion for both\n",
                   "computer science and game development have only grown since then! Beyond the classroom I have done countless independent projects\n",
-                  "exploring different areas of computer science including Machine Learning, App and Web Development, Render Pipelines, Simulation Theory,\n",
-                  "and Procedural Generation.\n\n",
+                  "exploring different areas of computer science including Machine Learning, App and Web Development, Render Pipelines, Simulation \n",
+                  "Theory, and Procedural Generation.\n\n",
 
                   "At CMU, I have had honor of becoming a full time researcher in the Augmented Perception Lab, where I work alongside faculty, graduate\n",
                   "students, and fellow undergraduates to push the boundaries of Virtual, Augmented, and Mixed reality.\n\n",
@@ -635,13 +635,13 @@ function initializeFields(){
                   "questions, feel free to email me at henriqueflee816@gmail.com.\n\n"]
 
 
-    about_breaks = [[[0,""],[88,"softgoldP"],[-(about_txts[0].length-2),"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgoldP"]],
+    about_breaks = [[[0,""],[88,"softgoldP"],[-132,"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgoldP"]],
                     [[0,""],[5,"softgoldP"],[68,"softgreen"],[about_txts[1].length,"softgoldP"]],
                     [[0,""],[about_txts[2].length,"softgoldP"]],
                     [[0,""],[about_txts[3].length,"softgoldP"]],
                     [[0,""],[about_txts[4].length,"softgoldP"]],
-                    [[0,""],[55,"softgoldP"],[72,"softgreen"],[73,"softgoldP"],[97,"softgreen"],[98,"softgoldP"],[115,"softgreen"],[116,"softgoldP"],[134,"softgreen"],[about_txts[5].length,"softgoldP"]],
-                    [[0,""],[4,"softgoldP"],[25,"softgreen"],[about_txts[6].length,"softgoldP"]],
+                    [[0,""],[55,"softgoldP"],[72,"softgreen"],[73,"softgoldP"],[97,"softgreen"],[98,"softgoldP"],[115,"softgreen"],[116,"softgoldP"],[about_txts[5].length,"softgreen"]],
+                    [[0,""],[6,"softgreen"],[12,"softgoldP"],[33,"softgreen"],[about_txts[6].length,"softgoldP"]],
                     [[0,""],[67,"softgoldP"],[-91,"pureblueU","https://augmented-perception.org/index"],[about_txts[7].length,"softgoldP"]],
                     [[0,""],[about_txts[8].length,"softgoldP"]],
                     [[0,""],[about_txts[9].length,"softgoldP"]],
@@ -881,8 +881,6 @@ function main(){
 
     initializeFields();
 
-    /*
-
     
     document.addEventListener("keyup", function(event) {
 
@@ -894,9 +892,9 @@ function main(){
     document.addEventListener("click",terminalOnClick);
 
     showIntro();
-    */
+    
 
-    showAbout();
+
   
 
 }
