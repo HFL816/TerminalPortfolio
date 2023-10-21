@@ -456,7 +456,7 @@ function initializeFields(){
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[8].length,"pureblue"]]];
 
     education_txt = "Carnegie Mellon University, School of Computer Science\n\n"+
-                    "Bachelor of Science in Computer Science (Current)\n\n"+
+                    "Bachelor of Science in Computer Science with a Concentration in Computer Systems (Current)\n\n"+
                     "GPA: 3.67\n\n"+
                     "Selected Coursework:\n"+
                     "   -Interactive Extended Reality (05-499)\n" + 
@@ -467,34 +467,35 @@ function initializeFields(){
                     "Singapore American School\n\n"+
                     "High School Diploma\n\n"+
                     "GPA: 4.3\n\n"+
-                    "Selected Coursework:\n"+
-                    "   -Advanced Data Structures\n"+
-                    "   -Advanced Topic: Linear Algebra\n"+
-                    "   -Advanced Topic: Multivariable Calculus\n"+
-                    "   -Advanced Placement: Computer Science\n\n";
+                    "Leadership:\n"+
+                    "   -Educating Children of Hispanic Origin (President)\n"+
+                    "   -Computer Science National Honor Society (Co-President)\n"+
+                    "   -Computer Science Tutoring (Head Tutor)\n"+
+                    "   -Varsity Soccer (Captain)\n\n";
 
     education_breaks = [[0,""],
                         [54,"hardgold"],
-                        [96,"pureblueP"],
-                        [105,"softred"],
-                        [111,"softgreenP"],
-                        [116,"softgoldP"],
-                        [141,"dirtyblueP"],
-                        [173,"softgoldP"],
-                        [-179,"pureblueU","https://cmucourses.com/course/15-251"],
-                        [219,"softgoldP"],
-                        [-225,"pureblueU","https://cmucourses.com/course/21-266"],
-                        [272,"softgoldP"],
-                        [-278,"pureblueU","https://cmucourses.com/course/21-241"],
-                        [329,"softgoldP"],
-                        [-335,"pureblueU","https://cmucourses.com/course/15-122"],
-                        [377,"softgoldP"],
-                        [383,"pureblueU","https://cmucourses.com/course/15-122"],
-                        [412,"hardgold"],
-                        [433,"pureblueP"],
-                        [439,"softgreenP"],
-                        [443,"softgoldP"],
-                        [465,"dirtyblueP"],
+                        [137,"pureblueP"],
+                        [147,"softred"],
+                        [153,"softgreenP"],
+                        [158,"softgoldP"],
+                        [183,"dirtyblueP"],
+                        [214,"softgoldP"],
+                        [-220,"pureblueU","https://cmucourses.com/course/05-499"],
+                        [260,"softgoldP"],
+                        [-266,"pureblueU","https://cmucourses.com/course/15-213"],
+                        [313,"softgoldP"],
+                        [-319,"pureblueU","https://cmucourses.com/course/21-266"],
+                        [370,"softgoldP"],
+                        [-376,"pureblueU","https://cmucourses.com/course/15-251"],
+                        [418,"softgoldP"],
+                        [-424,"pureblueU","https://cmucourses.com/course/15-122"],
+                        [427,"softgoldP"],
+                        [453,"hardgold"],
+                        [474,"pureblueP"],
+                        [480,"softgreenP"],
+                        [486,"softgoldP"],
+                        [500,"dirtyblueP"],
                         [education_txt.length,"softgoldP"]];
 
     projects_txts = [ 
@@ -892,10 +893,7 @@ function main(){
     document.addEventListener("click",terminalOnClick);
 
     showIntro();
-    
-
-
-  
+      
 
 }
 
