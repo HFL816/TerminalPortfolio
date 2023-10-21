@@ -435,15 +435,15 @@ function initializeFields(){
                     [112,"softgoldP"],
                     [-media_txt.length,"pureblueU","https://www.instagram.com/hfl_16/"]]; //TODO: INSERT LINKS
 
-    skills_txts = ["Programming Languages:                                     Game Engines:                       Data Analysis:\n\n",
-                   "           C#: ■ ■ ■ ■ ■                                      Unity: ■ ■ ■ ■ ■                    LaTex: ■ ■ ■ ■ □\n\n",
-                   "         Java: ■ ■ ■ ■ □                                 Game Maker: ■ ■ ■ □ □                    Excel: ■ ■ ■ □ □\n\n",
+    skills_txts = ["Programming Languages:                                     Game Engines:                       3D Modeling :\n\n",
+                   "           C#: ■ ■ ■ ■ ■                                      Unity: ■ ■ ■ ■ ■                  Blender: ■ ■ ■ ■ □\n\n",
+                   "       Python: ■ ■ ■ ■ ■                            Unreal Engine 5: ■ ■ ■ □ □                     Maya: ■ ■ ■ □ □\n\n",
                    "   JavaScript: ■ ■ ■ ■ □\n\n",
-                   "       Python: ■ ■ ■ ■ □                                                                        Languages:\n\n",
-                   "          SML: ■ ■ ■ ■ □                                 Unity XR SDK's:                        English: Native\n\n",
-                   "            C: ■ ■ ■ □ □                     XR Interaction Toolkit: ■ ■ ■ ■ □                  Spanish: Native\n\n",
-                   "     HTML/CSS: ■ ■ ■ □ □              Oculus VR Integration Toolkit: ■ ■ ■ ■ □               Portuguese: Native\n\n",
-                   "         HLSL: ■ ■ □ □ □                                  VIVE Wave: ■ ■ ■ □ □                 Mandarin: Advanced\n\n"];
+                   "          C++: ■ ■ ■ ■ □                                                                        Languages:\n\n",
+                   "            C: ■ ■ ■ ■ □                                 Unity XR SDK's:                        English: Native\n\n",
+                   "         Java: ■ ■ ■ ■ □                     XR Interaction Toolkit: ■ ■ ■ ■ ■                  Spanish: Native\n\n",
+                   "          SML: ■ ■ ■ ■ □              Oculus VR Integration Toolkit: ■ ■ ■ ■ ■               Portuguese: Native\n\n",
+                   "     HTML/CSS: ■ ■ ■ □ □                                  VIVE Wave: ■ ■ ■ □ □                 Mandarin: Advanced\n\n"];
 
     skills_breaks = [[[0,""],                                                                                    [skills_txts[0].length,"hardgold"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[1].length,"pureblue"]],
