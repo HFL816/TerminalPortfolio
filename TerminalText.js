@@ -575,21 +575,26 @@ function initializeFields(){
 
 
     lav_txt = "APL @ CMU (Augmented Perception Lab)\n"+
-                      "Position: Undergraduate Researcher (\'23-\'Current)\n\n"+
-                      "ECHO @ SAS (Educating Children of Hispanic Origin)\n"+
+                      "Position: Full Time Researcher (\'23-\'Current)\n\n"+
+                      "ECHO @ SAS(Educating Children of Hispanic Origin)\n"+
                       "Position: Vice President (\'19-\'20), President (\'20,\'22)\n\n"+
                       "Computer Science Honor Society @ SAS\n"+
-                      "Position: Co-President (\'21-\'22)\n\n";
+                      "Position: Co-President (\'21-\'22)\n\n" + 
+                      "Computer Science Tutoring\n" + 
+                      "Position: Head Tutor (\'21-\'22)\n\n";
 
     lav_breaks=[[0,""],
                 [36,"hardgold"],
                 [46,"pureblueP"],
-                [86,"pureblue"],
-                [139,"hardgold"],
-                [148,"pureblueP"],
-                [194,"pureblue"],
-                [232,"hardgold"],
-                [243,"pureblueP"],
+                [82,"pureblue"],
+                [133,"hardgold"],
+                [143,"pureblueP"],
+                [191,"pureblue"],
+                [228,"hardgold"],
+                [238,"pureblueP"],
+                [260,"pureblue"],
+                [287,"hardgold"],
+                [297,"pureblueP"],
                 [lav_txt.length,"pureblue"]];
 
     /*
@@ -877,10 +882,12 @@ function terminalOnClick(e){
 }
 
 function main(){
-
     
-
+    
+    
+    
     initializeFields();
+    
 
     
     document.addEventListener("keyup", function(event) {
@@ -891,6 +898,8 @@ function main(){
     });
 
     document.addEventListener("click",terminalOnClick);
+
+
 
     showIntro();
       
