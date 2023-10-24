@@ -443,7 +443,7 @@ function initializeFields(){
                    "            C: ■ ■ ■ ■ □                                 Unity XR SDK's:                        English: Native\n\n",
                    "         Java: ■ ■ ■ ■ □                     XR Interaction Toolkit: ■ ■ ■ ■ ■                  Spanish: Native\n\n",
                    "          SML: ■ ■ ■ ■ □              Oculus VR Integration Toolkit: ■ ■ ■ ■ ■               Portuguese: Native\n\n",
-                   "     HTML/CSS: ■ ■ ■ □ □                                  VIVE Wave: ■ ■ ■ □ □                 Mandarin: Advanced\n\n"];
+                   "        Swift: ■ ■ ■ □ □                                  VIVE Wave: ■ ■ ■ □ □                 Mandarin: Advanced\n\n"];
 
     skills_breaks = [[[0,""],                                                                                    [skills_txts[0].length,"hardgold"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[1].length,"pureblue"]],
