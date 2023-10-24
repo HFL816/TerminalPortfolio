@@ -501,78 +501,75 @@ function initializeFields(){
     projects_txts = [ 
 
                     "Exploring the Limits of AR Body Ownership through Acupuncture Simulation (Ongoing)\n",
-                    "Description: Leveraged Unity's Oculus Integration Toolkit to create an augmented reality acupuncture simulation\n", 
-                    "             for the Oculus Quest Pro. Subsequently led a study exploring if the simulation can successfully \n",
-                    "             be used as a placebo in acupuncture treatments. (APL Research)\n",
+                    "Description: Created an augmented reality acupuncture simulation for the Oculus Quest Pro by leveraging Meta’s \n", 
+                    "             Oculus VR Integration for Unity. Collaborating University of Pittsburgh’s medical department in \n",
+                    "             planning a medical study exploring whether AR acupuncture can be used as a placebo in acupuncture \n",
+                    "             treatments. (APL Research)",
                     "Tags: Unity, Oculus Integration Toolkit, Body Ownership \n",
-                    "Link To Video\n\n",
+                    "Link To Video\n\n\n",
+
+                    "Media Pipe to Mesh Hand Tracking System (Ongoing)",
+                    "Description: Developing a pipeline bridging Google’s Media Pipe Hand Tracking and the Unity virtual environment.\n",
+                    "             The pipeline takes in a live camera feed or prerecorded video and tracks the movements and gestures \n",
+                    "             of a designated pair of hands hands present in the input, creating a seamless mapping to a pair of \n",
+                    "             hand meshes within Unity (APL Research).",
+                    "Tags: Unity, Media-Pipe, Model Kinematics, Python, Socket\n\n\n",
                     
                     "XR Lightweight Hand Pose Recognizer\n",
-                    "Description: Designed and thoroughly optimized a Unity system allowing developers to create custom hand poses \n",
-                    "             that can then be recognized by any XR headset rigging. Developers are then able to control program\n",
-                    "             behavior when poses are executed, held, and terminated. (Personal Project)\n",
-                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n",
-                    "\n\n",
+                    "Description: Designed and thoroughly optimized a Unity system that allows developers to create custom hand poses \n",
+                    "             that can be recognized by any Unity compatible XR headset (Oculus Quest, Vive Pro, etc). Developers \n",
+                    "             can then control program behavior when poses are executed, held, and terminated. (Personal Project)\n",
+                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n\n\n",
 
                     "Investigating the Impact of Interaction Techniques on Immersion in VR Environments\n",
-                    "Description: Created and tested virtual reality environments featuring different forms of deliberately flawed \n",
-                    "             interaction techniques in virtual reality and used these environments in a user study to analyze \n",
-                    "             the effect that the flaws had on user immersion. (APL Research)\n",
-                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n",
-                    "\n\n",
+                    "Description: Created and tested three virtual reality game simulations featuring distinct deliberately flawed \n",
+                    "             interaction techniques. Leveraged these environments in a 10-person user study to analyze and \n",
+                    "             quantify the effects that the flaws had on user immersion. (APL Research)\n",
+                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n\n\n",
         
-                    "Icospheres Capable of Evolution (ICOE)\n",
+                    "ICOE-System\n",
                     "Description: Designed a framework consisting of ~21 Unity components and backend classes that implement a \n", 
                     "             dynamic behavior tree generated using genetic algorithms. The framework allows game developers to .\n",
                     "             create in-game entities whose physical appearances and behaviors evolve based on interactions with\n",
                     "             other entities as well as their environment. (Personal Project)\n",
                     "Tags: Unity, Behavior Trees, Genetic Algorithms\n",
-                    "Link To Video\n\n"
+                    "Link To Video\n\n\n"
                 ];
 
 
     //projects_breaks = [[0,""],[projects_txt.length,"softgoldP"]];
-    projects_breaks = [[[0,""],[73,"hardgold"],[projects_txts[0].length,"softred"]],
+    projects_breaks = [
+                       [[0,""],[73,"hardgold"],[projects_txts[0].length,"softred"]],
                        [[0,""],[12,"softgreen"],[projects_txts[1].length,"softgoldP"]],
                        [[0,""],[projects_txts[2].length,"softgoldP"]],
-                       [[0,""],[60,"softgoldP"],[projects_txts[3].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[4].length,"dirtyblueP"]],
-                       [[0,""],[-projects_txts[5].length,"pureblueU","https://youtu.be/l7kz3PUt-Pw"]],
-                       [[0,""],[projects_txts[6].length,"hardgold"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[7].length,"softgoldP"]],
-                       [[0,""],[projects_txts[8].length,"softgoldP"]],
-                       [[0,""],[69,"softgoldP"],[projects_txts[9].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[10].length,"dirtyblueP"]],
-                       [[0,""],[projects_txts[11].length,"softpurple"]],
-                       [[0,""],[projects_txts[12].length,"hardgold"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[13].length,"softgoldP"]],
-                       [[0,""],[projects_txts[14].length,"softgoldP"]],
-                       [[0,""],[62,"softgoldP"],[projects_txts[15].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[16].length,"dirtyblueP"]],
-                       [[0,""],[projects_txts[17].length,"softpurple"]],
+                       [[0,""],[projects_txts[3].length,"softgoldP"]],
+                       [[0,""],[25,"softgoldP"],[projects_txts[4].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[5].length,"dirtyblueP"]],
+                       [[0,""],[-projects_txts[6].length,"pureblueU","https://www.youtube.com/watch?v=l7kz3PUt-Pw"]],
+                       [[0,""],[40,"hardgold"],[projects_txts[7].length,"softred"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[8].length,"softgoldP"]],
+                       [[0,""],[projects_txts[9].length,"softgoldP"]],
+                       [[0,""],[projects_txts[10].length,"softgoldP"]],
+                       [[0,""],[38,"softgoldP"],[projects_txts[11].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[12].length,"dirtyblueP"]],
+                       [[0,""],[projects_txts[13].length,"hardgold"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[14].length,"softgoldP"]],
+                       [[0,""],[projects_txts[15].length,"softgoldP"]],
+                       [[0,""],[94,"softgoldP"],[projects_txts[16].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[17].length,"dirtyblueP"]],
                        [[0,""],[projects_txts[18].length,"hardgold"]],
                        [[0,""],[12,"softgreen"],[projects_txts[19].length,"softgoldP"]],
                        [[0,""],[projects_txts[20].length,"softgoldP"]],
-                       [[0,""],[projects_txts[21].length,"softgoldP"]],
-                       [[0,""],[58,"softgoldP"],[projects_txts[22].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[23].length,"dirtyblueP"]],
-                       [[0,""],[-projects_txts[24].length,"pureblueU","https://youtu.be/wIiD3CDTCD0"]],
-
-                       [[0,""],
-                        [10,"softgreenP"],
-                        [19,"softgreen"],
-                        [32,"dirtyblueP"],
-                        [302,"softgoldP"],
-                        [309,"pureblueP"],
-                        [349,"pureblue"],
-                        [373,"hardgold"],
-                        [384,"softgreenP"],
-                        [389,"softgreen"],
-                        [402,"dirtyblueP"],
-                        [554,"softgoldP"],
-                        [560,"pureblueP"],
-                        [projects_txts[11].length,"pureblue"]]];
-
+                       [[0,""],[72,"softgoldP"],[projects_txts[21].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[22].length,"dirtyblueP"]],
+                       [[0,""],[projects_txts[23].length,"hardgold"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[24].length,"softgoldP"]],
+                       [[0,""],[projects_txts[25].length,"softgoldP"]],
+                       [[0,""],[projects_txts[26].length,"softgoldP"]],
+                       [[0,""],[58,"softgoldP"],[projects_txts[27].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[28].length,"dirtyblueP"]],
+                       [[0,""],[-projects_txts[29].length,"pureblueU","https://www.youtube.com/watch?v=wIiD3CDTCD0"]],
+                      ];
 
     lav_txt = "APL @ CMU (Augmented Perception Lab)\n"+
                       "Position: Full Time Researcher (\'23-\'Current)\n\n"+
@@ -885,10 +882,7 @@ function main(){
     
     
     
-    
     initializeFields();
-    
-
     
     document.addEventListener("keyup", function(event) {
 
@@ -903,7 +897,7 @@ function main(){
 
     showIntro();
       
-
+    
 }
 
 main();
