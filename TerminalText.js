@@ -505,7 +505,7 @@ function initializeFields(){
                     "             Oculus VR Integration for Unity. Collaborating University of Pittsburgh’s medical department in \n",
                     "             planning a medical study exploring whether AR acupuncture can be used as a placebo in acupuncture \n",
                     "             treatments. (APL Research)",
-                    "Tags: Unity, Oculus Integration Toolkit, Body Ownership \n",
+                    "Tags: Unity, Oculus Integration Toolkit, Body Ownership, Augmented Reality \n",
                     "Link To Video\n\n\n",
 
                     "Media Pipe to Mesh Hand Tracking System (Ongoing)",
@@ -513,26 +513,26 @@ function initializeFields(){
                     "             The pipeline takes in a live camera feed or prerecorded video and tracks the movements and gestures \n",
                     "             of a designated pair of hands hands present in the input, creating a seamless mapping to a pair of \n",
                     "             hand meshes within Unity (APL Research).",
-                    "Tags: Unity, Media-Pipe, Model Kinematics, Python, Socket\n\n\n",
+                    "Tags: Unity, Media-Pipe, Model Kinematics, Python, Sockets\n\n\n",
                     
                     "XR Lightweight Hand Pose Recognizer\n",
                     "Description: Designed and thoroughly optimized a Unity system that allows developers to create custom hand poses \n",
                     "             that can be recognized by any Unity compatible XR headset (Oculus Quest, Vive Pro, etc). Developers \n",
                     "             can then control program behavior when poses are executed, held, and terminated. (Personal Project)\n",
-                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n\n\n",
+                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors, Skeleton Rigging, Developer Tool\n\n\n",
 
                     "Investigating the Impact of Interaction Techniques on Immersion in VR Environments\n",
                     "Description: Created and tested three virtual reality game simulations featuring distinct deliberately flawed \n",
                     "             interaction techniques. Leveraged these environments in a 10-person user study to analyze and \n",
                     "             quantify the effects that the flaws had on user immersion. (APL Research)\n",
-                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors\n\n\n",
+                    "Tags: Unity, XR Interaction Toolkit, Immersion, Game-Simulation\n\n\n",
         
                     "ICOE-System\n",
                     "Description: Designed a framework consisting of ~21 Unity components and backend classes that implement a \n", 
                     "             dynamic behavior tree generated using genetic algorithms. The framework allows game developers to .\n",
                     "             create in-game entities whose physical appearances and behaviors evolve based on interactions with\n",
                     "             other entities as well as their environment. (Personal Project)\n",
-                    "Tags: Unity, Behavior Trees, Genetic Algorithms\n",
+                    "Tags: Unity, Behavior Trees, Genetic Algorithms, Artificial Intelligence, Developer Tool\n",
                     "Link To Video\n\n\n"
                 ];
 
