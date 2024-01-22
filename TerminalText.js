@@ -523,8 +523,7 @@ function initializeFields(){
 
                     "Investigating the Impact of Interaction Techniques on Immersion in VR Environments\n",
                     "Description: Created and tested three virtual reality game simulations featuring distinct deliberately flawed \n",
-                    "             interaction techniques. Leveraged these environments in a 10-person user study to analyze and \n",
-                    "             quantify the effects that the flaws had on user immersion. (APL Research)\n",
+                    "             interaction techniques. (APL Research)\n",
                     "Tags: Unity, XR Interaction Toolkit, Immersion, Game-Simulation\n\n\n",
         
                     "ICOE-System\n",
@@ -559,16 +558,15 @@ function initializeFields(){
                        [[0,""],[5,"dirtyblue"],[projects_txts[17].length,"dirtyblueP"]],
                        [[0,""],[projects_txts[18].length,"hardgold"]],
                        [[0,""],[12,"softgreen"],[projects_txts[19].length,"softgoldP"]],
-                       [[0,""],[projects_txts[20].length,"softgoldP"]],
-                       [[0,""],[72,"softgoldP"],[projects_txts[21].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[22].length,"dirtyblueP"]],
-                       [[0,""],[projects_txts[23].length,"hardgold"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[24].length,"softgoldP"]],
+                       [[0,""],[37,"softgoldP"],[projects_txts[20].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[21].length,"dirtyblueP"]],
+                       [[0,""],[projects_txts[22].length,"hardgold"]],
+                       [[0,""],[12,"softgreen"],[projects_txts[23].length,"softgoldP"]],
+                       [[0,""],[projects_txts[24].length,"softgoldP"]],
                        [[0,""],[projects_txts[25].length,"softgoldP"]],
-                       [[0,""],[projects_txts[26].length,"softgoldP"]],
-                       [[0,""],[58,"softgoldP"],[projects_txts[27].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[28].length,"dirtyblueP"]],
-                       [[0,""],[-projects_txts[29].length,"pureblueU","https://www.youtube.com/watch?v=wIiD3CDTCD0"]],
+                       [[0,""],[58,"softgoldP"],[projects_txts[26].length,"softred"]],
+                       [[0,""],[5,"dirtyblue"],[projects_txts[27].length,"dirtyblueP"]],
+                       [[0,""],[-projects_txts[28].length,"pureblueU","https://www.youtube.com/watch?v=wIiD3CDTCD0"]],
                       ];
 
     lav_txt = "APL @ CMU (Augmented Perception Lab)\n"+
