@@ -433,37 +433,41 @@ function initializeFields(){
                     [80,"softgoldP"],
                     [-95,"pureblueU","https://www.linkedin.com/in/henrique-f-lee-666475256"],
                     [112,"softgoldP"],
-                    [-media_txt.length,"pureblueU","https://www.instagram.com/hfl_16/"]]; //TODO: INSERT LINKS
+                    [-media_txt.length,"pureblueU","https://www.instagram.com/hfl_16/"]]; 
 
-    skills_txts = ["Programming Languages:                                     Game Engines:                       3D Modeling :\n\n",
-                   "           C#: ■ ■ ■ ■ ■                                      Unity: ■ ■ ■ ■ ■                  Blender: ■ ■ ■ ■ □\n\n",
-                   "       Python: ■ ■ ■ ■ ■                            Unreal Engine 5: ■ ■ ■ □ □                     Maya: ■ ■ ■ □ □\n\n",
-                   "   JavaScript: ■ ■ ■ ■ □\n\n",
-                   "          C++: ■ ■ ■ ■ □                                                                        Languages:\n\n",
-                   "            C: ■ ■ ■ ■ □                                 Unity XR SDK's:                        English: Native\n\n",
-                   "         Java: ■ ■ ■ ■ □                     XR Interaction Toolkit: ■ ■ ■ ■ ■                  Spanish: Native\n\n",
-                   "          SML: ■ ■ ■ ■ □              Oculus VR Integration Toolkit: ■ ■ ■ ■ ■               Portuguese: Native\n\n",
-                   "        Swift: ■ ■ ■ □ □                                  VIVE Wave: ■ ■ ■ □ □                 Mandarin: Advanced\n\n"];
+                    //TODO I think 3D modeling game engines and eveloper tools can ve combinedinto one category called developer tools
+                    //and from there you can also add a few more like languages and skills like sockets and stuff YOU ALSO NEED to add 
+                    //this internship to the experiences 
+
+    skills_txts = ["Programming Languages:                                             Software:                       Engines:\n\n",
+                   "            C: ■ ■ ■ ■ ■                                 Media-Pipe: ■ ■ ■ ■ ■                    Unity: ■ ■ ■ ■ ■\n\n",
+                   "          C++: ■ ■ ■ ■ ■                                       CUDA: ■ ■ ■ ■ □          Unreal Engine 5: ■ ■ ■ □ □\n\n",
+                   "           C#: ■ ■ ■ ■ ■                                     OpenMP: ■ ■ ■ ■ □                                    \n\n",
+                   "       Python: ■ ■ ■ ■ ■                                  Socket.io: ■ ■ ■ ■ □                   Languages:\n\n",
+                   "         Java: ■ ■ ■ ■ ■                                   React.js: ■ ■ ■ ■ □                  English: Native\n\n",
+                   "   Javascript: ■ ■ ■ ■ □                                       .NET: ■ ■ ■ ■ □                  Spanish: Native\n\n",
+                   "        OCAML: ■ ■ ■ □ □                                   Firebase: ■ ■ ■ □ □               Portuguese: Native\n\n",
+                   "        Swift: ■ ■ ■ □ □                              Github/GitLab: ■ ■ ■ ■ ■                 Mandarin: Advanced\n\n"];
 
     skills_breaks = [[[0,""],                                                                                    [skills_txts[0].length,"hardgold"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[1].length,"pureblue"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[2].length,"pureblue"]],
-                     [[0,""],[15,"softgoldP"],                                                                   [skills_txts[3].length,"pureblue"]],
-                     [[0,""],[15,"softgoldP"],[25,"pureblue"],                                                   [skills_txts[4].length,"hardgold"]],
-                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[72,"hardgold"]                 ,[104,"softgoldP"],[skills_txts[5].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],                  [skills_txts[3].length,"pureblue"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],                  [skills_txts[4].length,"hardgold"]],
+                     [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[5].length,"pureblue"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[6].length,"pureblue"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[7].length,"pureblue"]],
                      [[0,""],[15,"softgoldP"],[25,"pureblue"],[68,"softgoldP"],[78,"pureblue"],[104,"softgoldP"],[skills_txts[8].length,"pureblue"]]];
 
     education_txt = "Carnegie Mellon University, School of Computer Science\n\n"+
-                    "Bachelor of Science in Computer Science with a Concentration in Computer Systems (Current)\n\n"+
-                    "GPA: 3.67\n\n"+
+                    "Bachelor of Science in Computer Science with Concentrations in Computer Systems and Computer Graphics (Current)\n\n"+
+                    "GPA: 3.77\n\n"+
                     "Selected Coursework:\n"+
-                    "   -Interactive Extended Reality (05-499)\n" + 
-                    "   -Introduction to Computer Systems (15-213)\n"+
-                    "   -Vector Calculus for Computer Scientists (21-266)\n"+
-                    "   -Great Ideas in Theoretical Computer Science (15-251)\n"+
-                    "   -Principles of Imperative Computing (15-122)\n\n\n" + 
+                    "   -Parallel Computer Architecture (15-418)\n"+
+                    "   -Distributed Systems (15-440)\n" +
+                    "   -Visual Computing Systems (15-473)\n" + 
+                    "   -Parallel and Sequential Data Structures and Algorithms (15-210)\n"+
+                    "   -Computer Vision (16-385)\n\n\n"+
                     "Singapore American School\n\n"+
                     "High School Diploma\n\n"+
                     "GPA: 4.3\n\n"+
@@ -475,99 +479,117 @@ function initializeFields(){
 
     education_breaks = [[0,""],
                         [54,"hardgold"],
-                        [137,"pureblueP"],
-                        [147,"softred"],
-                        [153,"softgreenP"],
-                        [158,"softgoldP"],
-                        [183,"dirtyblueP"],
-                        [214,"softgoldP"],
-                        [-220,"pureblueU","https://cmucourses.com/course/05-499"],
-                        [260,"softgoldP"],
-                        [-266,"pureblueU","https://cmucourses.com/course/15-213"],
-                        [313,"softgoldP"],
-                        [-319,"pureblueU","https://cmucourses.com/course/21-266"],
-                        [370,"softgoldP"],
-                        [-376,"pureblueU","https://cmucourses.com/course/15-251"],
-                        [418,"softgoldP"],
-                        [-424,"pureblueU","https://cmucourses.com/course/15-122"],
-                        [427,"softgoldP"],
-                        [453,"hardgold"],
-                        [474,"pureblueP"],
-                        [480,"softgreenP"],
-                        [486,"softgoldP"],
-                        [500,"dirtyblueP"],
+                        [158,"pureblueP"],
+                        [167,"softred"],
+                        [173,"softgreenP"],
+                        [178,"softgoldP"],
+                        [200,"dirtyblueP"],
+                        [237,"softgoldP"],
+                        [-243,"pureblueU","https://courses.scottylabs.org/course/15-418"],
+                        [270,"softgoldP"],
+                        [-276,"pureblueU","https://courses.scottylabs.org/course/15-440"],
+                        [308,"softgoldP"],
+                        [-314,"pureblueU","https://courses.scottylabs.org/course/15-473"],
+                        [376,"softgoldP"],
+                        [-382,"pureblueU","https://courses.scottylabs.org/course/15-210"],
+                        [405,"softgoldP"],
+                        [-411,"pureblueU","https://courses.scottylabs.org/course/16-385"],
+                        [412,"softgoldP"],
+                        [441,"hardgold"],
+                        [461,"pureblueP"],
+                        [467,"softgreenP"],
+                        [471,"softgoldP"],
+                        [484,"dirtyblueP"],
                         [education_txt.length,"softgoldP"]];
 
-    projects_txts = [ 
+    projects_txts = [
+                     "Emulating Context-Intelligent Behavior through Vision and Language Models\n", 
+                     "Role: Coauthor and Lead Software Developer for Carnegie Mellon's Augmented Perception Lab\n",
+                     "Duration: August 2024 - Present\n",
+                     "Description: \n",
+                     "Tags: \n",
+                     "Link to Devlog\n\n\n",
 
-                    "Exploring the Limits of AR Body Ownership through Acupuncture Simulation (Ongoing)\n",
-                    "Description: Created an augmented reality acupuncture simulation for the Oculus Quest Pro by leveraging Meta’s \n", 
-                    "             Oculus VR Integration for Unity. Collaborating University of Pittsburgh’s medical department in \n",
-                    "             planning a medical study exploring whether AR acupuncture can be used as a placebo in acupuncture \n",
-                    "             treatments. (APL Research)",
-                    "Tags: Unity, Oculus Integration Toolkit, Body Ownership, Augmented Reality \n",
-                    "Link To Video\n\n\n",
+                     "APEX\n",
+                     "Role: Full Stack Developer for Johns Hopkins Applied Physics Laboratory\n",
+                     "Duration: May 2024 - August 2024\n",
+                     "Description: Implemented network heavy features for a real-time collaborative application. Features necesitated\n",
+                     "             querying a remote SQL database through a RESTful API, Handling real-time file uploading/downloading,\n",
+                     "             enabling seamless concurrent interaction with uploaded media, designing application workflows to \n",
+                     "             guarantee accessibility and ease of use, and querying language models to execute user voice commands.\n",
+                     "Tags: Distributed System, Network Programming, Application Development, Language Models\n\n\n",
 
-                    "Media Pipe to Mesh Hand Tracking System (Ongoing)",
-                    "Description: Developing a pipeline bridging Google’s Media Pipe Hand Tracking and the Unity virtual environment.\n",
-                    "             The pipeline takes in a live camera feed or prerecorded video and tracks the movements and gestures \n",
-                    "             of a designated pair of hands hands present in the input, creating a seamless mapping to a pair of \n",
-                    "             hand meshes within Unity (APL Research).",
-                    "Tags: Unity, Media-Pipe, Model Kinematics, Python, Sockets\n\n\n",
-                    
-                    "XR Lightweight Hand Pose Recognizer\n",
-                    "Description: Designed and thoroughly optimized a Unity system that allows developers to create custom hand poses \n",
-                    "             that can be recognized by any Unity compatible XR headset (Oculus Quest, Vive Pro, etc). Developers \n",
-                    "             can then control program behavior when poses are executed, held, and terminated. (Personal Project)\n",
-                    "Tags: Unity, XR Interaction Toolkit, Bit Vectors, Skeleton Rigging, Developer Tool\n\n\n",
+                     "Media Pipe to Mesh Hand Tracking System\n",
+                     "Role: Software Developer for Carnegie Mellon's Augmented Perception Lab\n",
+                     "Duration: August 2023 - December 2023\n",
+                     "Description: Developed a pipeline bridging Google’s Media Pipe Hand Tracking and the Unity virtual environment.\n",
+                     "             The pipeline takes in a live camera feed or prerecorded video and tracks the movements and gestures \n",
+                     "             of a designated pair of hands hands present in the input, creating a seamless mapping to a pair of \n",
+                     "             hand meshes within Unity.",
+                     "Tags: Unity, Media-Pipe, Model Kinematics, Python, Socket.io\n\n\n",
 
-                    "Investigating the Impact of Interaction Techniques on Immersion in VR Environments\n",
-                    "Description: Created and tested three virtual reality game simulations featuring distinct deliberately flawed \n",
-                    "             interaction techniques. (APL Research)\n",
-                    "Tags: Unity, XR Interaction Toolkit, Immersion, Game-Simulation\n\n\n",
-        
-                    "ICOE-System\n",
-                    "Description: Designed a framework consisting of ~21 Unity components and backend classes that implement a \n", 
-                    "             dynamic behavior tree generated using genetic algorithms. The framework allows game developers to .\n",
-                    "             create in-game entities whose physical appearances and behaviors evolve based on interactions with\n",
-                    "             other entities as well as their environment. (Personal Project)\n",
-                    "Tags: Unity, Behavior Trees, Genetic Algorithms, Artificial Intelligence, Developer Tool\n",
-                    "Link To Video\n\n\n"
-                ];
+                     "Exploring the Limits of AR Body Ownership through Acupuncture Simulation\n",
+                     "Role: Software Developer under Carnegie Mellon's Augmented Perception Lab\n",
+                     "Duration: May 2023 - August 2023\n",
+                     "Description: Created an augmented reality acupuncture simulation for the Oculus Quest Pro by leveraging Meta’s \n", 
+                     "             Oculus VR Integration for Unity. Collaborating University of Pittsburgh’s medical department in \n",
+                     "             planning a medical study exploring whether AR acupuncture can be used as a placebo in acupuncture \n",
+                     "             treatments.",
+                     "Tags: Unity, Oculus Integration Toolkit, Body Ownership, Augmented Reality \n",
+                     "Link To Video\n\n\n",
 
-
-    //projects_breaks = [[0,""],[projects_txt.length,"softgoldP"]];
+                     "ICOE-System\n",
+                     "Role: Hobbyist Developer for personal project\n",
+                     "Duration: January 2022 - May 2022\n",
+                     "Description: Designed a framework consisting of ~21 Unity components and backend classes that implement a \n", 
+                     "             dynamic behavior tree generated using genetic algorithms. The framework allows game developers to .\n",
+                     "             create in-game entities whose physical appearances and behaviors evolve based on interactions with\n",
+                     "             other entities as well as their environment.\n",
+                     "Tags: Unity, Behavior Trees, Genetic Algorithms, Developer Tool\n",
+                     "Link To Video\n\n\n"];
     projects_breaks = [
-                       [[0,""],[73,"hardgold"],[projects_txts[0].length,"softred"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[1].length,"softgoldP"]],
-                       [[0,""],[projects_txts[2].length,"softgoldP"]],
-                       [[0,""],[projects_txts[3].length,"softgoldP"]],
-                       [[0,""],[25,"softgoldP"],[projects_txts[4].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[5].length,"dirtyblueP"]],
-                       [[0,""],[-projects_txts[6].length,"pureblueU","https://www.youtube.com/watch?v=l7kz3PUt-Pw"]],
-                       [[0,""],[40,"hardgold"],[projects_txts[7].length,"softred"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[8].length,"softgoldP"]],
-                       [[0,""],[projects_txts[9].length,"softgoldP"]],
+                       [[0,""],[projects_txts[0].length,"hardgold"]],
+                       [[0,""],[5,"softgreen"],[projects_txts[1].length,"softgreenP"]],
+                       [[0,""],[9,"dirtyblue"], [23, "dirtyblueP"],[projects_txts[2].length,"softred"]],
+                       [[0,""],[projects_txts[3].length,"softgold"]],
+                       [[0,""],[4,"softcyan"],[projects_txts[4].length,"softcyanP"]],
+                       [[0,""],[-projects_txts[5].length,"pureblueU"]],
+                       [[0,""],[projects_txts[6].length,"hardgold"]],
+                       [[0,""],[5,"softgreen"],[projects_txts[7].length,"softgreenP"]],
+                       [[0,""],[9,"dirtyblue"], [projects_txts[8].length,"dirtyblueP"]],
+                       [[0,""],[12,"softgold"], [projects_txts[9].length,"softgoldP"]],
                        [[0,""],[projects_txts[10].length,"softgoldP"]],
-                       [[0,""],[38,"softgoldP"],[projects_txts[11].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[12].length,"dirtyblueP"]],
-                       [[0,""],[projects_txts[13].length,"hardgold"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[14].length,"softgoldP"]],
-                       [[0,""],[projects_txts[15].length,"softgoldP"]],
-                       [[0,""],[94,"softgoldP"],[projects_txts[16].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[17].length,"dirtyblueP"]],
-                       [[0,""],[projects_txts[18].length,"hardgold"]],
+                       [[0,""],[projects_txts[11].length,"softgoldP"]],
+                       [[0,""],[projects_txts[12].length,"softgoldP"]],
+                       [[0,""],[4,"softcyan"],[projects_txts[13].length,"softcyanP"]],
+                       [[0,""],[projects_txts[14].length,"hardgold"]],
+                       [[0,""],[5,"softgreen"],[projects_txts[15].length,"softgreenP"]],
+                       [[0,""],[9,"dirtyblue"], [projects_txts[16].length,"dirtyblueP"]],
+                       [[0,""],[12,"softgold"],[projects_txts[17].length,"softgoldP"]],
+                       [[0,""],[projects_txts[18].length,"softgoldP"]],
                        [[0,""],[12,"softgreen"],[projects_txts[19].length,"softgoldP"]],
-                       [[0,""],[37,"softgoldP"],[projects_txts[20].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[21].length,"dirtyblueP"]],
+                       [[0,""],[projects_txts[20].length,"softgoldP"]],
+                       [[0,""],[4,"softcyan"],[projects_txts[21].length,"softcyanP"]],
                        [[0,""],[projects_txts[22].length,"hardgold"]],
-                       [[0,""],[12,"softgreen"],[projects_txts[23].length,"softgoldP"]],
-                       [[0,""],[projects_txts[24].length,"softgoldP"]],
-                       [[0,""],[projects_txts[25].length,"softgoldP"]],
-                       [[0,""],[58,"softgoldP"],[projects_txts[26].length,"softred"]],
-                       [[0,""],[5,"dirtyblue"],[projects_txts[27].length,"dirtyblueP"]],
-                       [[0,""],[-projects_txts[28].length,"pureblueU","https://www.youtube.com/watch?v=wIiD3CDTCD0"]],
+                       [[0,""],[5,"softgreen"], [projects_txts[23].length,"softgreenP"]],
+                       [[0,""],[9,"dirtyblue"], [projects_txts[24].length, "dirtyblueP"]],
+                       [[0,""],[12,"softgold"],[projects_txts[25].length,"softgoldP"]],
+                       [[0,""],[projects_txts[26].length,"softgoldP"]],
+                       [[0,""],[projects_txts[27].length,"softgoldP"]],
+                       [[0,""],[projects_txts[28].length,"softgoldP"]],
+                       [[0,""],[4,"softcyan"],[projects_txts[29].length,"softcyanP"]],
+                       [[0,""],[-projects_txts[30].length,"pureblueU","https://www.youtube.com/watch?v=l7kz3PUt-Pw"]],
+                       [[0,""],[projects_txts[31].length,"hardgold"]],
+                       [[0,""],[5,"softgreen"],[projects_txts[32].length,"softgreenP"]],
+                       [[0,""],[9,"dirtyblue"], [projects_txts[33].length,"dirtyblueP"]],
+                       [[0,""],[12,"softgold"],[projects_txts[34].length,"softgoldP"]],
+                       [[0,""],[projects_txts[35].length,"softgoldP"]],
+                       [[0,""],[projects_txts[36].length,"softgoldP"]],
+                       [[0,""],[projects_txts[37].length,"softgoldP"]],
+                       [[0,""],[4,"softcyan"],[projects_txts[38].length,"softcyanP"]],
+                       [[0,""],[-projects_txts[39].length,"pureblueU","https://www.youtube.com/watch?v=wIiD3CDTCD0"]]
                       ];
+
 
     lav_txt = "APL @ CMU (Augmented Perception Lab)\n"+
                       "Position: Full Time Researcher (\'23-\'Current)\n\n"+
@@ -621,8 +643,8 @@ function initializeFields(){
 
 
     about_txts = ["Hello! My name is Henrique F. Lee, welcome to my website! I am currently a sophomore in Carnegie Mellon’s School of Computer Science.\n",
-                  "as a Computer Science Major with a concentration in Computer Systems. My family is originally from Brazil and Colombia, but I grew up\n",
-                  "in Singapore.\n\n",
+                  "as a Computer Science Major with concentrations in Computer Systems and Computer Graphics. My family is originally from Brazil and\n",
+                  "Colombia, but I grew up in Singapore.\n\n",
                 
                   "I started coding around 11 years ago in hopes of creating video games when I grew up, and I am glad to say my passion for both\n",
                   "computer science and game development have only grown since then! Beyond the classroom I have done countless independent projects\n",
@@ -637,7 +659,7 @@ function initializeFields(){
 
 
     about_breaks = [[[0,""],[88,"softgoldP"],[-132,"pureblueU","https://www.cs.cmu.edu/"],[about_txts[0].length,"softgoldP"]],
-                    [[0,""],[5,"softgoldP"],[68,"softgreen"],[about_txts[1].length,"softgoldP"]],
+                    [[0,""],[5,"softgoldP"],[89,"softgreen"],[about_txts[1].length,"softgoldP"]],
                     [[0,""],[about_txts[2].length,"softgoldP"]],
                     [[0,""],[about_txts[3].length,"softgoldP"]],
                     [[0,""],[about_txts[4].length,"softgoldP"]],
@@ -648,10 +670,6 @@ function initializeFields(){
                     [[0,""],[about_txts[9].length,"softgoldP"]],
                     [[0,""],[36,"softgoldP"],[-61,"pureblueU","mailto:mail@henriqueflee816@gmail.com"],[about_txts[10].length,"softgoldP"]],
                    ];
-
-
-    
-
 
     return_txt = "If you wish to display all commands, type help and press enter.\n\n";
 
@@ -881,7 +899,7 @@ function main(){
     
     
     initializeFields();
-    
+
     document.addEventListener("keyup", function(event) {
 
         if (event.key === "Enter") {
@@ -899,3 +917,5 @@ function main(){
 }
 
 main();
+
+
