@@ -226,6 +226,54 @@ p{
 
 }
 
+.softcyan{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#7cd4d4;
+
+    text-shadow: 1px 1px 4px #7cd4d4;
+
+
+}
+
+.softcyanP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#7cd4d4;
+
+
+}
+
+.puregreen{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#549d64;
+
+    text-shadow: 1px 1px 4px #549d64;
+
+
+}
+
+.puregreenP{
+
+    font-family: monospace;
+    font-size: 1.2vw;
+
+    background-color: transparent;
+    color:#549d64;
+
+
+}
+
 
 #terminalinput{
 
@@ -248,7 +296,7 @@ p{
     font-family:monospace;
     font-size: 1.2vw;
 
-    color:#E5c07b;
+    color: #E5c07b;
     background-color: transparent;
 
     overflow-y: scroll;
